@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://d14p2um5kxwff"]
+
+[ext_resource type="PackedScene" uid="uid://wbw0p0x3wqyj" path="res://Characters/Player/player.tscn" id="2_aoiel"]
+[ext_resource type="PackedScene" uid="uid://dkc17ggamfpqi" path="res://Characters/Enemy/robot.tscn" id="2_kv5qb"]
+
+[node name="GameScreen" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(2, 2)
+
+[node name="Robot" parent="." instance=ExtResource("2_kv5qb")]
+position = Vector2(108, 76)
+
+[node name="Player" parent="." groups=["player"] instance=ExtResource("2_aoiel")]
+position = Vector2(-275, 0)
+
+[node name="GameTime" type="Timer" parent="."]
+one_shot = true
