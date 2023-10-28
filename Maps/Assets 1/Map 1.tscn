@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://bqk2pkbak3wa5"]
 
-[ext_resource type="Texture2D" uid="uid://ct3kawhu2k5u6" path="res://Assets 1/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x1.png" id="1_yklsx"]
+[ext_resource type="Texture2D" uid="uid://ct3kawhu2k5u6" path="res://Maps/Assets 1/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x1.png" id="1_yklsx"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_s3uip"]
 texture = ExtResource("1_yklsx")
