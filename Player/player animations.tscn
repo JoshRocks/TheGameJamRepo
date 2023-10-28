@@ -1,5 +1,6 @@
-[gd_scene load_steps=17 format=3 uid="uid://3kkvyyrnunfn"]
+[gd_scene load_steps=21 format=3 uid="uid://dcekmjbji8b6a"]
 
+[ext_resource type="Script" path="res://Player/PlayerCharacter.cs" id="1_epta4"]
 [ext_resource type="Texture2D" uid="uid://nvf3awpb7ny8" path="res://Assets/RPGMCharacter_v1.0/_down idle.png" id="1_ik2vk"]
 [ext_resource type="Texture2D" uid="uid://cqmdqt3kio21k" path="res://Assets/RPGMCharacter_v1.0/_down walk.png" id="2_2juh1"]
 [ext_resource type="Texture2D" uid="uid://coo0hn4n1smnv" path="res://Assets/RPGMCharacter_v1.0/_side idle.png" id="3_lhnaf"]
@@ -9,6 +10,19 @@
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qqgxv"]
 size = Vector2(13, 33)
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_ny1ny"]
+animation = &"side idle"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_ongfp"]
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_erc05"]
+states/Start/position = Vector2(197, 89)
+"states/side idle/node" = SubResource("AnimationNodeAnimation_ny1ny")
+"states/side idle/position" = Vector2(331, 89)
+transitions = ["Start", "side idle", SubResource("AnimationNodeStateMachineTransition_ongfp")]
+graph_offset = Vector2(-78, -3)
 
 [sub_resource type="Animation" id="Animation_ulxg2"]
 resource_name = "Down Walk"
@@ -282,6 +296,7 @@ _data = {
 }
 
 [node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_epta4")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 visible = false
@@ -289,13 +304,15 @@ position = Vector2(-1.5, -0.5)
 shape = SubResource("RectangleShape2D_qqgxv")
 
 [node name="Down Idle" type="Sprite2D" parent="."]
-visible = false
 position = Vector2(-2, -1)
 texture = ExtResource("1_ik2vk")
 hframes = 4
 vframes = 2
 
 [node name="AnimationTree" type="AnimationTree" parent="."]
+tree_root = SubResource("AnimationNodeStateMachine_erc05")
+anim_player = NodePath("../AnimationPlayer")
+active = true
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {

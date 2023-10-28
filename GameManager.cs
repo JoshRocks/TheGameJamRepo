@@ -23,7 +23,7 @@ public partial class GameManager : Node
         GameTimer = GetNode<Timer>("Timer");
         GameTimer.OneShot = true;
         Player = (CharacterBody2D)GetTree().GetFirstNodeInGroup("player");
-        
+        GameStart = true;
         
     }
 
