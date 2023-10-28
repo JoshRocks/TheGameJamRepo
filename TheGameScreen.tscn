@@ -1,10 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://d14p2um5kxwff"]
 
-<<<<<<< HEAD
 [ext_resource type="PackedScene" uid="uid://wbw0p0x3wqyj" path="res://Player/player.tscn" id="2_aoiel"]
-=======
-[ext_resource type="PackedScene" uid="uid://brh3xb8hic848" path="res://Characters/Player/player.tscn" id="2_aoiel"]
->>>>>>> 96cd6d8ad548be17d04918c19c01166456fe289b
 [ext_resource type="PackedScene" uid="uid://cwxfhvgpcbycr" path="res://Assets 1/Levels.tscn" id="3_osew4"]
 
 [node name="GameScreen" type="Node2D"]
@@ -13,12 +9,8 @@
 position = Vector2(2, -2)
 
 [node name="Player" parent="." groups=["player"] instance=ExtResource("2_aoiel")]
-position = Vector2(-707, 117)
+position = Vector2(-773, 6)
 
 [node name="GameManager" type="Node" parent="." groups=["GameManager"]]
-<<<<<<< HEAD
 
 [node name="Timer" type="Timer" parent="GameManager"]
-=======
-script = ExtResource("4_18ns0")
->>>>>>> 96cd6d8ad548be17d04918c19c01166456fe289b
