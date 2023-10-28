@@ -1,26 +1,10 @@
-<<<<<<< HEAD
 res://Maps/Final zone.tscn
 res://TheGameScreen.tscn
 res://Characters/Enemy/robot.tscn
 res://player2/player.tscn
 res://Assets 1/map 2 town.tscn
-=======
-res://Maps/exit_zone.tscn
-res://Maps/Assets 1/Map 1 Node.tscn
-res://Characters/Enemy/robot.tscn
->>>>>>> 96cd6d8ad548be17d04918c19c01166456fe289b
 res://Assets 1/Levels.tscn
 res://Maps/Assets 1/map 2 town.tscn
+res://Maps/Assets 1/Map 1 Node.tscn
 res://Maps/Assets 1/dessert town uwu.tscn
-<<<<<<< HEAD
-=======
-res://Maps/Final zone.tscn
->>>>>>> 96cd6d8ad548be17d04918c19c01166456fe289b
 res://Maps/Map_1.tscn
-res://Characters/Player/player.tscn
-res://TheGameScreen.tscn
-res://Characters/Enemy/robot.cs
-res://Characters/Player/PlayerCharacter.cs
-res://GameManager.cs
-res://GameTimer.cs
-res://Maps/exitzone.cs
