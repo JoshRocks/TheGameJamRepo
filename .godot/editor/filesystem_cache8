@@ -1,7 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1698490030
+::res://::1698505326
 icon.svg::CompressedTexture2D::7099258018124617409::1698482484::1698490030::1::::<><>::
-TheGameScreen.tscn::PackedScene::9044998982244819359::1698490014::0::1::::<><>::uid://wbw0p0x3wqyj::::res://Characters/Player/player.tscn<>uid://dkc17ggamfpqi::::res://Characters/Enemy/robot.tscn<>uid://cwxfhvgpcbycr::::res://Assets 1/Levels.tscn<>res://GameManager.cs
+TheGameScreen.tscn::PackedScene::9044998982244819359::1698499329::0::1::::<><>::uid://wbw0p0x3wqyj::::res://Characters/Player/player.tscn<>uid://dkc17ggamfpqi::::res://Characters/Enemy/robot.tscn<>uid://cwxfhvgpcbycr::::res://Assets 1/Levels.tscn
 ::res://Assets/::1698482484
 Enemy.png::CompressedTexture2D::149889701823535600::1698482484::1698482484::1::::<><>::
 Player.png::CompressedTexture2D::8648225832575337777::1698482484::1698482484::1::::<><>::
@@ -62,10 +62,10 @@ players red x3.png::CompressedTexture2D::5771187147110969525::1698482484::169848
 ui x1.png::CompressedTexture2D::8160137856587468261::1698482484::1698482484::1::::<><>::
 ui x2.png::CompressedTexture2D::6918583390635478837::1698482484::1698482484::1::::<><>::
 ui x3.png::CompressedTexture2D::7281321129015478089::1698482484::1698482484::1::::<><>::
-::res://Assets 1/::1698490014
-Levels.tscn::PackedScene::6364793814230906685::1698490014::0::1::::<><>::uid://ospom3vkj1m::::res://Assets 1/map 2 town.tscn<>uid://ctyww0nqr67r3::::res://Maps/Assets 1/Map 1 Node.tscn<>uid://x7xpl876k7o4::::res://Maps/Assets 1/dessert town uwu.tscn
-Map 1.tscn::PackedScene::3531752631948280118::1698490014::0::1::::<><>::uid://ct3kawhu2k5u6::::res://Maps/Assets 1/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x1.png
-map 2 town.tscn::PackedScene::30021736500420932::1698490014::0::1::::<><>::uid://byjgo010afmxn::::res://Maps/Assets 1/modern-city-assets/street.png<>uid://cg5dw7kjlth3c::::res://Maps/Assets 1/modern-city-assets/buildings.png<>uid://dvkl1y6gdf230::::res://Maps/Assets 1/modern-city-assets/vehicles.png
+::res://Assets 1/::1698499329
+Levels.tscn::PackedScene::6364793814230906685::1698499329::0::1::::<><>::uid://ospom3vkj1m::::res://Assets 1/map 2 town.tscn<>uid://ctyww0nqr67r3::::res://Maps/Assets 1/Map 1 Node.tscn<>uid://x7xpl876k7o4::::res://Maps/Assets 1/dessert town uwu.tscn
+Map 1.tscn::PackedScene::3531752631948280118::1698490014::0::1::::<><>::uid://ct3kawhu2k5u6
+map 2 town.tscn::PackedScene::30021736500420932::1698499329::0::1::::<><>::uid://byjgo010afmxn::::res://Maps/Assets 1/modern-city-assets/street.png<>uid://cg5dw7kjlth3c::::res://Maps/Assets 1/modern-city-assets/buildings.png<>uid://dvkl1y6gdf230::::res://Maps/Assets 1/modern-city-assets/vehicles.png
 tileset x1.png::CompressedTexture2D::6262106339527886506::1698482484::1698482484::1::::<><>::
 tileset x2.png::CompressedTexture2D::4074684221718905145::1698482484::1698482484::1::::<><>::
 tileset x3.png::CompressedTexture2D::8022112435778420226::1698482484::1698482484::1::::<><>::
@@ -134,19 +134,19 @@ ui x1.png::CompressedTexture2D::4149093896902683320::1698482484::1698482484::1::
 ui x2.png::CompressedTexture2D::1471805113470683334::1698482484::1698482484::1::::<><>::
 ui x3.png::CompressedTexture2D::2619761547927437966::1698482484::1698482484::1::::<><>::
 ::res://Characters/::1698482484
-::res://Characters/Enemy/::1698482484
-robot.tscn::PackedScene::7866915354609809100::1698482484::0::1::::<><>::res://Characters/Enemy/robot.cs<>uid://lwbmxgdsrujp::::res://Assets/Tech Dungeon Roguelite - Asset Pack (DEMO)/NPC/No Outlines/npc x3.png
-::res://Characters/Player/::1698482484
-player.tscn::PackedScene::1547600184032935561::1698482484::0::1::::<><>::uid://dvhjasosn7fan::::res://Assets/Player.png<>res://Characters/Player/PlayerCharacter.cs<>uid://nvf3awpb7ny8::::res://Assets/RPGMCharacter_v1.0/_down idle.png
-::res://Maps/::1698490014
-Final zone.tscn::PackedScene::57380755690896914::1698490014::0::1::::<><>::uid://djiran84tbbly::::res://Assets 1/DesertTileset16x16/Tileset16x16/DesertTilemapBlankBackground.png<>uid://cg5dw7kjlth3c::::res://Assets 1/modern-city-assets/buildings.png<>uid://byjgo010afmxn::::res://Assets 1/modern-city-assets/street.png<>uid://dvkl1y6gdf230::::res://Assets 1/modern-city-assets/vehicles.png<>uid://ct3kawhu2k5u6::::res://Assets 1/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x1.png
+::res://Characters/Enemy/::1698499329
+robot.tscn::PackedScene::7866915354609809100::1698499329::0::1::::<><>::uid://lwbmxgdsrujp::::res://Assets/Tech Dungeon Roguelite - Asset Pack (DEMO)/NPC/No Outlines/npc x3.png
+::res://Characters/Player/::1698499329
+player.tscn::PackedScene::1547600184032935561::1698499329::0::1::::<><>::uid://dvhjasosn7fan::::res://Assets/Player.png<>uid://nvf3awpb7ny8::::res://Assets/RPGMCharacter_v1.0/_down idle.png
+::res://Maps/::1698499330
+Final zone.tscn::PackedScene::57380755690896914::1698499330::0::1::::<><>::uid://djiran84tbbly::::res://Maps/Assets 1/DesertTileset16x16/Tileset16x16/DesertTilemapBlankBackground.png<>uid://cg5dw7kjlth3c::::res://Maps/Assets 1/modern-city-assets/buildings.png<>uid://byjgo010afmxn::::res://Maps/Assets 1/modern-city-assets/street.png<>uid://dvkl1y6gdf230::::res://Maps/Assets 1/modern-city-assets/vehicles.png<>uid://ct3kawhu2k5u6::::res://Maps/Assets 1/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x1.png
 map 1.png::CompressedTexture2D::372364952902867373::1698482484::1698482484::1::::<><>::
-Map_1.tscn::PackedScene::3531752631948280118::1698482484::0::1::::<><>::uid://fkm2cutnbd8h::::res://Maps/map 1.png
-::res://Maps/Assets 1/::1698490014
-dessert town uwu.tscn::PackedScene::1681827399778047609::1698490014::0::1::::<><>::uid://byjgo010afmxn::::res://Maps/Assets 1/modern-city-assets/street.png<>uid://djiran84tbbly::::res://Maps/Assets 1/DesertTileset16x16/Tileset16x16/DesertTilemapBlankBackground.png
-Map 1 Node.tscn::PackedScene::6157350857830173478::1698490014::0::1::::<><>::uid://bqk2pkbak3wa5::::res://Assets 1/Map 1.tscn
-Map 1.tscn::PackedScene::3531752631948280118::1698490014::0::1::::<><>::uid://ct3kawhu2k5u6::::res://Maps/Assets 1/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x1.png
-map 2 town.tscn::PackedScene::977374331486146444::1698490014::0::1::::<><>::uid://byjgo010afmxn::::res://Maps/Assets 1/modern-city-assets/street.png<>uid://cg5dw7kjlth3c::::res://Maps/Assets 1/modern-city-assets/buildings.png<>uid://dvkl1y6gdf230::::res://Maps/Assets 1/modern-city-assets/vehicles.png
+Map_1.tscn::PackedScene::3531752631948280118::1698482484::0::1::::<><>::uid://fkm2cutnbd8h
+::res://Maps/Assets 1/::1698499329
+dessert town uwu.tscn::PackedScene::1681827399778047609::1698499329::0::1::::<><>::uid://byjgo010afmxn::::res://Maps/Assets 1/modern-city-assets/street.png<>uid://djiran84tbbly::::res://Maps/Assets 1/DesertTileset16x16/Tileset16x16/DesertTilemapBlankBackground.png
+Map 1 Node.tscn::PackedScene::6157350857830173478::1698499329::0::1::::<><>::uid://bqk2pkbak3wa5::::res://Maps/Map_1.tscn
+Map 1.tscn::PackedScene::3531752631948280118::1698490014::0::1::::<><>::uid://ct3kawhu2k5u6
+map 2 town.tscn::PackedScene::977374331486146444::1698499329::0::1::::<><>::uid://byjgo010afmxn::::res://Maps/Assets 1/modern-city-assets/street.png<>uid://cg5dw7kjlth3c::::res://Maps/Assets 1/modern-city-assets/buildings.png<>uid://dvkl1y6gdf230::::res://Maps/Assets 1/modern-city-assets/vehicles.png
 ::res://Maps/Assets 1/DesertTileset16x16/::1698482484
 ::res://Maps/Assets 1/DesertTileset16x16/ButtonForTheMap/::1698482484
 ButtonGif1.png::CompressedTexture2D::7648438965247237637::1698482484::1698482484::1::::<><>::
