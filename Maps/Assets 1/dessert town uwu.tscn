@@ -1,7 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://x7xpl876k7o4"]
+[gd_scene load_steps=7 format=3 uid="uid://x7xpl876k7o4"]
 
 [ext_resource type="Texture2D" uid="uid://byjgo010afmxn" path="res://Maps/Assets 1/modern-city-assets/street.png" id="1_0pu25"]
 [ext_resource type="Texture2D" uid="uid://djiran84tbbly" path="res://Maps/Assets 1/DesertTileset16x16/Tileset16x16/DesertTilemapBlankBackground.png" id="2_trcqb"]
+[ext_resource type="PackedScene" uid="uid://dkc17ggamfpqi" path="res://Characters/Enemy/robot.tscn" id="3_gdrx4"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5jqpe"]
 texture = ExtResource("1_0pu25")
@@ -1250,4 +1251,18 @@ layer_1/tile_data = PackedInt32Array(393195, 327684, 2, 393198, 327684, 2, 39319
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(-271, 254)
-zoom = Vector2(2.7, 2.5)
+zoom = Vector2(2.7, 2.7)
+
+[node name="L3R1" parent="." instance=ExtResource("3_gdrx4")]
+position = Vector2(-180, 22)
+scale = Vector2(0.75, 0.75)
+direction = Vector2(0, -1)
+
+[node name="L3R2" parent="." instance=ExtResource("3_gdrx4")]
+position = Vector2(-185, 313)
+scale = Vector2(0.75, 0.75)
+direction = Vector2(0, -1)
+
+[node name="L3R3" parent="." instance=ExtResource("3_gdrx4")]
+position = Vector2(-2, 251)
+direction = Vector2(0, 1)
