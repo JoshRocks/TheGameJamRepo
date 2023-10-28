@@ -6,14 +6,14 @@
 [node name="Level 1" type="Node2D"]
 
 [node name="TileMap" parent="." instance=ExtResource("1_xtbjl")]
-position = Vector2(1, -1)
+position = Vector2(12, -127)
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(43, -38)
+position = Vector2(52.6, -163.755)
 zoom = Vector2(2, 1.8)
 
 [node name="L1R1" parent="." instance=ExtResource("2_pagap")]
-position = Vector2(85, 93)
+position = Vector2(95, -33)
 
 [node name="L1R2" parent="." instance=ExtResource("2_pagap")]
-position = Vector2(49, -112)
+position = Vector2(62, -204)

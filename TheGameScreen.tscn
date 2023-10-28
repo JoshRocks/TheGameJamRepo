@@ -7,9 +7,10 @@
 [node name="GameScreen" type="Node2D"]
 
 [node name="Levels" parent="." instance=ExtResource("3_osew4")]
+position = Vector2(2, -2)
 
 [node name="Player" parent="." groups=["player"] instance=ExtResource("2_aoiel")]
-position = Vector2(-757, 121)
+position = Vector2(-773, 6)
 
 [node name="GameManager" type="Node" parent="." groups=["GameManager"]]
 script = ExtResource("4_18ns0")
