@@ -212,5 +212,5 @@ ui x1.png::CompressedTexture2D::4149093896902683320::1698477580::1698477614::1::
 ui x2.png::CompressedTexture2D::1471805113470683334::1698477580::1698477614::1::::<><>::
 ui x3.png::CompressedTexture2D::2619761547927437966::1698477580::1698477615::1::::<><>::
 ::res://Player/::1698507592
-player.tscn::PackedScene::1547600184032935561::1698507592::0::1::::<><>::uid://dvhjasosn7fan::::res://Assets/Player.png<>res://Characters/Player/PlayerCharacter.cs<>uid://nvf3awpb7ny8::::res://Assets/RPGMCharacter_v1.0/_down idle.png
+player.tscn::PackedScene::1547600184032935561::1698507592::0::1::::<><>::uid://dvhjasosn7fan
 PlayerCharacter.cs::CSharpScript::-1::1698507592::0::1::::<><>::
