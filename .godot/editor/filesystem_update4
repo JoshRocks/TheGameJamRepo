@@ -1,14 +1,1 @@
-res://Assets 1/Levels.tscn
-res://levels.tscn
-res://Maps/Assets 1/Map 1 Node.tscn
-res://Maps/Assets 1/map 2 town.tscn
-res://TheGameScreen.tscn
-res://Characters/Enemy/robot.tscn
-res://Characters/Player/player.tscn
-res://Maps/Map_1.tscn
-res://Assets 1/Map 1.tscn
-res://Assets 1/map 2 town.tscn
-res://Maps/Assets 1/Map 1.tscn
-res://Characters/Enemy/robot.cs
-res://Characters/Player/PlayerCharacter.cs
-res://Maps/Assets 1/dessert town uwu.tscn
+res://Maps/Final zone.tscn
