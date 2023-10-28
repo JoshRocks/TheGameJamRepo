@@ -8,7 +8,6 @@ public partial class GameManager : Node
 
     public CharacterBody2D Player;
 
-    Timer GameTimer;
     enum GameState {NotStarted, Running, GameOver, Success};
     int GameLevel = 0;
     public short currentGameState = 0;
@@ -20,10 +19,8 @@ public partial class GameManager : Node
     public override void _Ready()
     {
         base._Ready();
-        GameTimer = GetNode<Timer>("Timer");
-        GameTimer.OneShot = true;
         Player = (CharacterBody2D)GetTree().GetFirstNodeInGroup("player");
-        
+        GameStart = true;
         
     }
 
@@ -38,17 +35,13 @@ public partial class GameManager : Node
 
         if (GameStart)
         {
-            GameTimer.Start(60);
             GameStart = false;
             currentGameState = 1;
         }
 
         if (currentGameState == 1)
         {
-            if (GameTimer.TimeLeft <= 0.00)
-            {
-                GameOver();
-            }
+            
         }
         else
         {
