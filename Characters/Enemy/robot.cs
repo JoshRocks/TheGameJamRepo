@@ -31,7 +31,6 @@ public partial class robot : CharacterBody2D
         
         manager = (GameManager)GetTree().GetFirstNodeInGroup("GameManager");
         direction = new Vector2(-1, 0);
-        
     }
 
     public override void _PhysicsProcess(double delta)

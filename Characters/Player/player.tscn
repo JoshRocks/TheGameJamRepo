@@ -1,48 +1,12 @@
 [gd_scene load_steps=21 format=3 uid="uid://brh3xb8hic848"]
 
+[ext_resource type="Script" path="res://Characters/Player/PlayerCharacter.cs" id="1_qhf1f"]
 [ext_resource type="Texture2D" uid="uid://nvf3awpb7ny8" path="res://Assets/RPGMCharacter_v1.0/_down idle.png" id="2_7kbcp"]
 [ext_resource type="Texture2D" uid="uid://cqmdqt3kio21k" path="res://Assets/RPGMCharacter_v1.0/_down walk.png" id="3_roqp3"]
 [ext_resource type="Texture2D" uid="uid://coo0hn4n1smnv" path="res://Assets/RPGMCharacter_v1.0/_side idle.png" id="4_p3vmu"]
 [ext_resource type="Texture2D" uid="uid://c3hbtkv4qinki" path="res://Assets/RPGMCharacter_v1.0/_side walk.png" id="5_1npge"]
 [ext_resource type="Texture2D" uid="uid://b8g4ccqqklqyh" path="res://Assets/RPGMCharacter_v1.0/_up idle.png" id="6_fxi5h"]
 [ext_resource type="Texture2D" uid="uid://b7f8ma6ed2tel" path="res://Assets/RPGMCharacter_v1.0/_up walk.png" id="7_0jy64"]
-
-[sub_resource type="CSharpScript" id="CSharpScript_23qx1"]
-script/source = "using Godot;
-using System;
-
-public partial class PlayerCharacter : CharacterBody2D
-{
-    public Vector2 direction = Vector2.Zero;
-
-    [ExportGroup(\"Movement\")]
-    [Export] public float moveSpeed = 175.0f;
-
-    [Export] public Vector2 starting_direction = new Vector2(0, 1);
-
-
-    //parameters/Idle/blend_position
-    //parameters/playback
-
-    public override void _Ready()
-    {
-        base._Ready();
-    }
-
-    public override void _PhysicsProcess(double delta)
-    {
-        base._PhysicsProcess(delta);
-
-        ////Input Handler////
-        direction = Input.GetVector(\"move_left\", \"move_right\", \"move_up\", \"move_down\");
-
-        Velocity = direction * moveSpeed;
-
-        MoveAndSlide();
-
-    }
-
-}"
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qqgxv"]
 size = Vector2(13, 33)
@@ -332,7 +296,7 @@ _data = {
 }
 
 [node name="Player" type="CharacterBody2D"]
-script = SubResource("CSharpScript_23qx1")
+script = ExtResource("1_qhf1f")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 visible = false

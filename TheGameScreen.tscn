@@ -10,9 +10,7 @@
 position = Vector2(2, -2)
 
 [node name="Player" parent="." groups=["player"] instance=ExtResource("2_aoiel")]
-position = Vector2(-773, 6)
+position = Vector2(-707, 117)
 
 [node name="GameManager" type="Node" parent="." groups=["GameManager"]]
 script = ExtResource("4_18ns0")
-
-[node name="Timer" type="Timer" parent="GameManager"]

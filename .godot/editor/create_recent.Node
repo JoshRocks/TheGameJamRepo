@@ -1,19 +1,12 @@
-<<<<<<< Updated upstream
+Timer
+CollisionShape2D
 Area2D
-=======
 Sprite2D
 AnimationPlayer
 AnimationTree
 CharacterBody2D
->>>>>>> Stashed changes
-Timer
 Node
 Camera2D
 Node2D
 TileMap
-<<<<<<< Updated upstream
 Sprite2D
-=======
-Area2D
->>>>>>> Stashed changes
-CollisionShape2D

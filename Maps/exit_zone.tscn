@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://37ce3323jp0g"]
+
+[ext_resource type="Script" path="res://Maps/exit_zone.cs" id="1_vxfy7"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hcul4"]
+size = Vector2(50, 36)
+
+[node name="ExitZone" type="Area2D"]
+collision_layer = 2
+collision_mask = 2
+script = ExtResource("1_vxfy7")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(250, -308)
+shape = SubResource("RectangleShape2D_hcul4")
