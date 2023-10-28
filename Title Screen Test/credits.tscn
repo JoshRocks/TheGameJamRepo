@@ -1,0 +1,109 @@
+[gd_scene load_steps=5 format=3 uid="uid://cukvdpdt5xr6r"]
+
+[ext_resource type="Script" path="res://Credits.gd" id="1_ola1y"]
+[ext_resource type="FontFile" uid="uid://dyl1kcylxyp63" path="res://SirClive.ttf" id="2_k2yy3"]
+[ext_resource type="Texture2D" uid="uid://bcn3fntnpw8j3" path="res://Credits Screen.jpg" id="2_kd43k"]
+[ext_resource type="AudioStream" uid="uid://c8komn5llxavr" path="res://Game Jam Lab Theme.mp3" id="3_rgjue"]
+
+[node name="Credits" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ola1y")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+show_behind_parent = true
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 649.0
+texture = ExtResource("2_kd43k")
+
+[node name="Credits" type="Label" parent="."]
+layout_mode = 0
+offset_left = 397.0
+offset_top = 69.0
+offset_right = 697.0
+offset_bottom = 132.0
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 0
+theme_override_constants/shadow_offset_y = 0
+theme_override_constants/outline_size = 0
+theme_override_constants/shadow_outline_size = 0
+theme_override_fonts/font = ExtResource("2_k2yy3")
+theme_override_font_sizes/font_size = 75
+text = "Credits:"
+
+[node name="Joshua" type="Label" parent="."]
+layout_mode = 0
+offset_left = 438.0
+offset_top = 195.0
+offset_right = 662.0
+offset_bottom = 233.0
+theme_override_constants/shadow_offset_x = 0
+theme_override_constants/shadow_offset_y = 0
+theme_override_constants/shadow_outline_size = 0
+theme_override_font_sizes/font_size = 25
+text = "Joshua Rockamore"
+
+[node name="Jostein Sagnes" type="Label" parent="."]
+layout_mode = 0
+offset_left = 463.0
+offset_top = 300.0
+offset_right = 636.0
+offset_bottom = 338.0
+theme_override_constants/shadow_offset_x = 0
+theme_override_constants/shadow_offset_y = 0
+theme_override_constants/outline_size = 0
+theme_override_constants/shadow_outline_size = 0
+theme_override_font_sizes/font_size = 25
+text = "Jostein Sagnes"
+
+[node name="Arthur" type="Label" parent="."]
+layout_mode = 0
+offset_left = 502.0
+offset_top = 402.0
+offset_right = 583.0
+offset_bottom = 440.0
+theme_override_constants/shadow_offset_x = 0
+theme_override_constants/shadow_offset_y = 0
+theme_override_constants/outline_size = 0
+theme_override_constants/shadow_outline_size = 0
+theme_override_font_sizes/font_size = 25
+text = "Arthur"
+
+[node name="Arman" type="Label" parent="."]
+layout_mode = 0
+offset_left = 468.0
+offset_top = 487.0
+offset_right = 620.0
+offset_bottom = 525.0
+theme_override_constants/shadow_offset_x = 0
+theme_override_constants/shadow_offset_y = 0
+theme_override_constants/outline_size = 0
+theme_override_constants/shadow_outline_size = 0
+theme_override_font_sizes/font_size = 25
+text = "Arman Jocek"
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_top = 590.0
+offset_right = 88.0
+offset_bottom = 647.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="Back" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 35
+text = "Back"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_rgjue")
+autoplay = true
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Back" to="." method="_on_back_pressed"]
