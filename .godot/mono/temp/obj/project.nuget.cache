@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "skhqPO2sH3yKeKYhbUt5n0z5/uorfi7jOpD39ZO0PcYOFIEQi+K4k8b/9H9Zvg8J9wxULSAH8a86N670OWFo9w==",
+  "dgSpecHash": "+0ZG1Ob3V0HhF4mhjZwfK+4maDaZlb9Qb2kuAyn6u+aeUy1lmZDp6A+E5MsOlBI23epmpgCXeCR75/6j3DKoXg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rocka\\Documents\\TheJamGame\\TheJamGame.csproj",
+  "projectFilePath": "C:\\Users\\rocka\\Documents\\TheJamGame\\TheGameJamRepo\\TheJamGame.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rocka\\.nuget\\packages\\godot.sourcegenerators\\4.1.1\\godot.sourcegenerators.4.1.1.nupkg.sha512",
     "C:\\Users\\rocka\\.nuget\\packages\\godotsharp\\4.1.1\\godotsharp.4.1.1.nupkg.sha512",

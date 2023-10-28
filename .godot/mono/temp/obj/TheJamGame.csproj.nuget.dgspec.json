@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rocka\\Documents\\TheJamGame\\TheJamGame.csproj": {}
+    "C:\\Users\\rocka\\Documents\\TheJamGame\\TheGameJamRepo\\TheJamGame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rocka\\Documents\\TheJamGame\\TheJamGame.csproj": {
+    "C:\\Users\\rocka\\Documents\\TheJamGame\\TheGameJamRepo\\TheJamGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rocka\\Documents\\TheJamGame\\TheJamGame.csproj",
+        "projectUniqueName": "C:\\Users\\rocka\\Documents\\TheJamGame\\TheGameJamRepo\\TheJamGame.csproj",
         "projectName": "TheJamGame",
-        "projectPath": "C:\\Users\\rocka\\Documents\\TheJamGame\\TheJamGame.csproj",
+        "projectPath": "C:\\Users\\rocka\\Documents\\TheJamGame\\TheGameJamRepo\\TheJamGame.csproj",
         "packagesPath": "C:\\Users\\rocka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rocka\\Documents\\TheJamGame\\.godot\\mono\\temp\\obj\\",
+        "outputPath": "C:\\Users\\rocka\\Documents\\TheJamGame\\TheGameJamRepo\\.godot\\mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
