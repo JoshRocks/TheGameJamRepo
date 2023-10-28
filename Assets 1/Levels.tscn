@@ -1,20 +1,16 @@
-[gd_scene load_steps=5 format=3 uid="uid://cwxfhvgpcbycr"]
+[gd_scene load_steps=4 format=3 uid="uid://cwxfhvgpcbycr"]
 
 [ext_resource type="PackedScene" uid="uid://ospom3vkj1m" path="res://Assets 1/map 2 town.tscn" id="2_aupd2"]
 [ext_resource type="PackedScene" uid="uid://ctyww0nqr67r3" path="res://Maps/Assets 1/Map 1 Node.tscn" id="3_j0ul7"]
 [ext_resource type="PackedScene" uid="uid://x7xpl876k7o4" path="res://Maps/Assets 1/dessert town uwu.tscn" id="3_vq5qa"]
-[ext_resource type="PackedScene" uid="uid://22b144gpot3" path="res://Maps/Final zone.tscn" id="4_ke1tp"]
 
 [node name="Levels" type="Node2D"]
 
 [node name="Level 1" parent="." instance=ExtResource("3_j0ul7")]
-position = Vector2(-578, 271)
+position = Vector2(-582, 18)
 
 [node name="Level 2" parent="." instance=ExtResource("2_aupd2")]
 position = Vector2(827, -26)
 
 [node name="Level 3" parent="." instance=ExtResource("3_vq5qa")]
 position = Vector2(2606, -35)
-
-[node name="Final Level" parent="." instance=ExtResource("4_ke1tp")]
-position = Vector2(3674, 356)
