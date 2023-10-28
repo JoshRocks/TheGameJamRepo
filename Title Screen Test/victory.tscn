@@ -1,0 +1,75 @@
+[gd_scene load_steps=5 format=3 uid="uid://d0ye47dsupbqc"]
+
+[ext_resource type="Script" path="res://Victory.gd" id="1_n6ps4"]
+[ext_resource type="FontFile" uid="uid://dyl1kcylxyp63" path="res://SirClive.ttf" id="2_pajm8"]
+[ext_resource type="Texture2D" uid="uid://bsn6g3bebsxkj" path="res://Victory Backgroundlol.jpg" id="2_vg3ak"]
+[ext_resource type="AudioStream" uid="uid://blcm25ncdowhy" path="res://Game Jam Main Title Theme.mp3" id="3_woc8m"]
+
+[node name="Victory" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_n6ps4")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = -21.0
+offset_top = -20.0
+offset_right = 1192.0
+offset_bottom = 673.0
+texture = ExtResource("2_vg3ak")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 84.0
+offset_top = 114.0
+offset_right = 1082.0
+offset_bottom = 316.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0.301961, 0.835294, 0.415686, 1)
+theme_override_colors/font_outline_color = Color(0, 0.803922, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_constants/shadow_outline_size = 10
+theme_override_fonts/font = ExtResource("2_pajm8")
+theme_override_font_sizes/font_size = 250
+text = "Victory!"
+
+[node name="Congratulations" type="Label" parent="."]
+layout_mode = 0
+offset_left = 388.0
+offset_top = 346.0
+offset_right = 792.0
+offset_bottom = 418.0
+theme_override_font_sizes/font_size = 50
+text = "Congratulations!"
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 525.0
+offset_top = 500.0
+offset_right = 621.0
+offset_bottom = 566.0
+theme_override_constants/margin_left = 0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="Main Menu" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 25
+text = "Main Menu"
+
+[node name="Leave" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 25
+text = "Leave"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_woc8m")
+autoplay = true
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Main Menu" to="." method="_on_main_menu_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Leave" to="." method="_on_leave_pressed"]
