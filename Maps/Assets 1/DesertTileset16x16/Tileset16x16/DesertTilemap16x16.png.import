@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dtrb3xk30byy5"
-path="res://.godot/imported/DesertTilemap16x16.png-58b540b384ef23f842c2fefafd3785a5.ctex"
+path="res://.godot/imported/DesertTilemap16x16.png-61ea4ab04ddc6b05e249fa4495c9fc6a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets 1/DesertTileset16x16/Tileset16x16/DesertTilemap16x16.png"
-dest_files=["res://.godot/imported/DesertTilemap16x16.png-58b540b384ef23f842c2fefafd3785a5.ctex"]
+source_file="res://Maps/Assets 1/DesertTileset16x16/Tileset16x16/DesertTilemap16x16.png"
+dest_files=["res://.godot/imported/DesertTilemap16x16.png-61ea4ab04ddc6b05e249fa4495c9fc6a.ctex"]
 
 [params]
 

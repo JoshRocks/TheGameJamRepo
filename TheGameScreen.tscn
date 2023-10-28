@@ -6,13 +6,17 @@
 [node name="GameScreen" type="Node2D"]
 
 [node name="Camera2D" type="Camera2D" parent="."]
-zoom = Vector2(2, 2)
+position = Vector2(39, -39)
+zoom = Vector2(1.7, 1.7)
 
 [node name="Robot" parent="." instance=ExtResource("2_kv5qb")]
-position = Vector2(108, 76)
+position = Vector2(171, -75)
+scale = Vector2(0.75, 0.75)
 
 [node name="Player" parent="." groups=["player"] instance=ExtResource("2_aoiel")]
-position = Vector2(-275, 0)
+position = Vector2(-204, -39)
 
 [node name="GameTime" type="Timer" parent="."]
 one_shot = true
+
+[node name="Levels" type="Node2D" parent="."]
