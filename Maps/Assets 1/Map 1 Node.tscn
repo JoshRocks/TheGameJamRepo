@@ -1,11 +1,19 @@
-[gd_scene load_steps=2 format=3 uid="uid://ctyww0nqr67r3"]
+[gd_scene load_steps=3 format=3 uid="uid://ctyww0nqr67r3"]
 
-[ext_resource type="PackedScene" uid="uid://bqk2pkbak3wa5" path="res://Assets 1/Map 1.tscn" id="1_xtbjl"]
+[ext_resource type="PackedScene" uid="uid://bqk2pkbak3wa5" path="res://Maps/Map_1.tscn" id="1_xtbjl"]
+[ext_resource type="PackedScene" uid="uid://dkc17ggamfpqi" path="res://Characters/Enemy/robot.tscn" id="2_pagap"]
 
 [node name="Level 1" type="Node2D"]
 
 [node name="TileMap" parent="." instance=ExtResource("1_xtbjl")]
+position = Vector2(1, -1)
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(35, 127)
-zoom = Vector2(2.45, 2.04)
+position = Vector2(43, -38)
+zoom = Vector2(2, 1.8)
+
+[node name="L1R1" parent="." instance=ExtResource("2_pagap")]
+position = Vector2(85, 93)
+
+[node name="L1R2" parent="." instance=ExtResource("2_pagap")]
+position = Vector2(49, -112)

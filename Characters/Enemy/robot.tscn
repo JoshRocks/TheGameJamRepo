@@ -9,13 +9,22 @@ size = Vector2(25, 39)
 [node name="Robot" type="CharacterBody2D"]
 script = ExtResource("1_a8j03")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-visible = false
-position = Vector2(1.5, 4.5)
-shape = SubResource("RectangleShape2D_ov277")
-
 [node name="EnemySprite" type="Sprite2D" parent="."]
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("2_hiyr1")
 hframes = 6
 vframes = 3
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="AreaCollisionShape" type="CollisionShape2D" parent="Area2D"]
+visible = false
+position = Vector2(1.5, 4.5)
+shape = SubResource("RectangleShape2D_ov277")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(1.5, 4.5)
+shape = SubResource("RectangleShape2D_ov277")
+
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]

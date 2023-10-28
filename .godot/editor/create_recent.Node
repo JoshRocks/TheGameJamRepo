@@ -1,9 +1,9 @@
+Area2D
 Timer
 Node
 Camera2D
 Node2D
 TileMap
-Area2D
 Sprite2D
 CollisionShape2D
 CharacterBody2D

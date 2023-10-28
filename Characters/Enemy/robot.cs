@@ -1,52 +1,81 @@
 using Godot;
+using Godot.NativeInterop;
 using System;
 using System.Diagnostics;
 
 public partial class robot : CharacterBody2D
 {
+    GameManager manager;
     [ExportGroup("MainStuff")]
     [Export] public float sightRange = 100; // Adjust this to set the sight range
     [Export] public float speed = 300.0f;
     [Export] public float raycastStuff = 1000;
-    [Export] public Vector2 visionDirection;
+    [Export] public int path;
+
+    [Export] public Vector2 direction;
 
     private Vector2 targetPosition;
     private bool isAggro = false;
-    private Vector2 direction;
+    
 
     PlayerCharacter playerWeLookingFor;
 
-
+    public void CallForGameOver()
+    {
+        
+    }
 
     public override void _Ready()
     {
         base._Ready();
+        
+        manager = (GameManager)GetTree().GetFirstNodeInGroup("GameManager");
         direction = new Vector2(-1, 0);
-        visionDirection = new Vector2(-1, 0);
     }
 
     public override void _PhysicsProcess(double delta)
     {
 
-        if (!isAggro)
+        if(manager.currentGameState == 1)
         {
-            // Check for the player within aggro range
-            playerWeLookingFor = GetPlayerInSight();
-            if (playerWeLookingFor != null)
+            if (!isAggro)
             {
-                isAggro = true;
+                // Check for the player within aggro range
+                playerWeLookingFor = GetPlayerInSight();
+                if (playerWeLookingFor != null)
+                {
+                    isAggro = true;
+                    targetPosition = playerWeLookingFor.GlobalPosition;
+                    MoveTowardTarget();
+                }
+            }
+            else
+            {
+                // Move towards the player
                 targetPosition = playerWeLookingFor.GlobalPosition;
                 MoveTowardTarget();
+
             }
         }
-        else
+
+        
+
+    }
+
+    public void Roaming()
+    {
+
+    }
+
+
+   public void _on_area_2d_area_entered(CharacterBody2D Body)
+    {
+        if(Body == manager.Player)
         {
-            // Move towards the player
-            targetPosition = playerWeLookingFor.GlobalPosition;
-            MoveTowardTarget();
-            
+            manager.GameOver();
         }
     }
+
 
     private PlayerCharacter GetPlayerInSight()
     {
@@ -57,7 +86,7 @@ public partial class robot : CharacterBody2D
             RayCast2D raycast = new RayCast2D();
             AddChild(raycast);
 
-            raycast.TargetPosition = visionDirection * raycastStuff;
+            raycast.TargetPosition = direction * raycastStuff;
             raycast.ForceRaycastUpdate();
 
 

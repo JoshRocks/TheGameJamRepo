@@ -1,7 +1,6 @@
-[gd_scene load_steps=5 format=3 uid="uid://d14p2um5kxwff"]
+[gd_scene load_steps=4 format=3 uid="uid://d14p2um5kxwff"]
 
 [ext_resource type="PackedScene" uid="uid://wbw0p0x3wqyj" path="res://Characters/Player/player.tscn" id="2_aoiel"]
-[ext_resource type="PackedScene" uid="uid://dkc17ggamfpqi" path="res://Characters/Enemy/robot.tscn" id="2_kv5qb"]
 [ext_resource type="PackedScene" uid="uid://cwxfhvgpcbycr" path="res://Assets 1/Levels.tscn" id="3_osew4"]
 [ext_resource type="Script" path="res://GameManager.cs" id="4_18ns0"]
 
@@ -10,13 +9,9 @@
 [node name="Levels" parent="." instance=ExtResource("3_osew4")]
 
 [node name="Player" parent="." groups=["player"] instance=ExtResource("2_aoiel")]
-position = Vector2(-176, 111)
+position = Vector2(-757, 121)
 
-[node name="Robot" parent="." instance=ExtResource("2_kv5qb")]
-position = Vector2(171, -75)
-scale = Vector2(0.75, 0.75)
-
-[node name="GameManager" type="Node" parent="."]
+[node name="GameManager" type="Node" parent="." groups=["GameManager"]]
 script = ExtResource("4_18ns0")
 
 [node name="Timer" type="Timer" parent="GameManager"]
