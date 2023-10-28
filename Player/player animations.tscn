@@ -1,31 +1,15 @@
-<<<<<<< Updated upstream
-[gd_scene load_steps=5 format=3 uid="uid://wbw0p0x3wqyj"]
+[gd_scene load_steps=17 format=3 uid="uid://3kkvyyrnunfn"]
 
-[ext_resource type="Texture2D" uid="uid://dvhjasosn7fan" path="res://Assets/Player.png" id="1_knmj7"]
-[ext_resource type="Script" path="res://Characters/Player/PlayerCharacter.cs" id="1_n216q"]
-[ext_resource type="Texture2D" uid="uid://nvf3awpb7ny8" path="res://Assets/RPGMCharacter_v1.0/_down idle.png" id="3_2bjnp"]
-=======
-[gd_scene load_steps=17 format=3 uid="uid://wbw0p0x3wqyj"]
-
-[ext_resource type="Texture2D" uid="uid://cqmdqt3kio21k" path="res://Assets/RPGMCharacter_v1.0/_down walk.png" id="2_ys854"]
-[ext_resource type="Texture2D" uid="uid://nvf3awpb7ny8" path="res://Assets/RPGMCharacter_v1.0/_down idle.png" id="3_2bjnp"]
-[ext_resource type="Texture2D" uid="uid://coo0hn4n1smnv" path="res://Assets/RPGMCharacter_v1.0/_side idle.png" id="3_vi2ga"]
-[ext_resource type="Texture2D" uid="uid://c3hbtkv4qinki" path="res://Assets/RPGMCharacter_v1.0/_side walk.png" id="4_hdn3p"]
-[ext_resource type="Texture2D" uid="uid://b8g4ccqqklqyh" path="res://Assets/RPGMCharacter_v1.0/_up idle.png" id="5_o1ajc"]
-[ext_resource type="Texture2D" uid="uid://b7f8ma6ed2tel" path="res://Assets/RPGMCharacter_v1.0/_up walk.png" id="6_wbfmh"]
->>>>>>> Stashed changes
+[ext_resource type="Texture2D" uid="uid://nvf3awpb7ny8" path="res://Assets/RPGMCharacter_v1.0/_down idle.png" id="1_ik2vk"]
+[ext_resource type="Texture2D" uid="uid://cqmdqt3kio21k" path="res://Assets/RPGMCharacter_v1.0/_down walk.png" id="2_2juh1"]
+[ext_resource type="Texture2D" uid="uid://coo0hn4n1smnv" path="res://Assets/RPGMCharacter_v1.0/_side idle.png" id="3_lhnaf"]
+[ext_resource type="Texture2D" uid="uid://c3hbtkv4qinki" path="res://Assets/RPGMCharacter_v1.0/_side walk.png" id="4_s0huc"]
+[ext_resource type="Texture2D" uid="uid://b8g4ccqqklqyh" path="res://Assets/RPGMCharacter_v1.0/_up idle.png" id="5_aovg1"]
+[ext_resource type="Texture2D" uid="uid://b7f8ma6ed2tel" path="res://Assets/RPGMCharacter_v1.0/_up walk.png" id="6_t7kwd"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qqgxv"]
 size = Vector2(13, 33)
 
-<<<<<<< Updated upstream
-[node name="Player" type="CharacterBody2D"]
-script = ExtResource("1_n216q")
-
-[node name="PlayerSprite" type="Sprite2D" parent="."]
-visible = false
-texture = ExtResource("1_knmj7")
-=======
 [sub_resource type="Animation" id="Animation_ulxg2"]
 resource_name = "Down Walk"
 length = 0.4
@@ -298,26 +282,18 @@ _data = {
 }
 
 [node name="Player" type="CharacterBody2D"]
->>>>>>> Stashed changes
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 visible = false
 position = Vector2(-1.5, -0.5)
 shape = SubResource("RectangleShape2D_qqgxv")
 
-<<<<<<< Updated upstream
-[node name="DownIdle" type="Sprite2D" parent="."]
-=======
 [node name="Down Idle" type="Sprite2D" parent="."]
 visible = false
->>>>>>> Stashed changes
 position = Vector2(-2, -1)
-texture = ExtResource("3_2bjnp")
+texture = ExtResource("1_ik2vk")
 hframes = 4
 vframes = 2
-<<<<<<< Updated upstream
-frame = 1
-=======
 
 [node name="AnimationTree" type="AnimationTree" parent="."]
 
@@ -328,31 +304,30 @@ libraries = {
 
 [node name="Down walk" type="Sprite2D" parent="."]
 visible = false
-texture = ExtResource("2_ys854")
+texture = ExtResource("2_2juh1")
 hframes = 4
 vframes = 2
 
 [node name="side idle" type="Sprite2D" parent="."]
-texture = ExtResource("3_vi2ga")
+texture = ExtResource("3_lhnaf")
 hframes = 4
 vframes = 2
 
 [node name="Side walk left" type="Sprite2D" parent="."]
 visible = false
-texture = ExtResource("4_hdn3p")
+texture = ExtResource("4_s0huc")
 hframes = 4
 vframes = 2
 frame = 1
 
 [node name="up idle" type="Sprite2D" parent="."]
 visible = false
-texture = ExtResource("5_o1ajc")
+texture = ExtResource("5_aovg1")
 hframes = 4
 vframes = 2
 
 [node name="up walk" type="Sprite2D" parent="."]
 visible = false
-texture = ExtResource("6_wbfmh")
+texture = ExtResource("6_t7kwd")
 hframes = 4
 vframes = 2
->>>>>>> Stashed changes
