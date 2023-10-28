@@ -12,3 +12,4 @@ res://Characters/Enemy/robot.cs
 res://Characters/Player/PlayerCharacter.cs
 res://GameManager.cs
 res://GameTimer.cs
+res://Maps/exitzone.cs

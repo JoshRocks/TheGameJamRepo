@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://bqk2pkbak3wa5" path="res://Maps/Map_1.tscn" id="1_xtbjl"]
 [ext_resource type="PackedScene" uid="uid://dkc17ggamfpqi" path="res://Characters/Enemy/robot.tscn" id="2_pagap"]
-[ext_resource type="PackedScene" uid="uid://37ce3323jp0g" path="res://Maps/exit_zone.tscn" id="3_1kl8w"]
+[ext_resource type="PackedScene" uid="uid://b6wmj8161yxo4" path="res://Maps/exit_zone.tscn" id="3_1kl8w"]
 [ext_resource type="Script" path="res://GameTimer.cs" id="4_52idr"]
 
 [node name="Level 1" type="Node2D"]

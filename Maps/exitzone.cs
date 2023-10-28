@@ -1,6 +1,6 @@
 using Godot;
 
-public partial class SceneTransition : Area2D
+public partial class exitzone : Area2D
 {
     GameManager manager;
     CharacterBody2D Player;
