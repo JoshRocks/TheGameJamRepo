@@ -1,8 +1,15 @@
 ea4bc82a6ad023ab7ee23ee620429895
+<<<<<<< HEAD
 ::res://::1698516148
 GameManager.cs::CSharpScript::-1::1698516074::0::1::::<><>::
 icon.svg::CompressedTexture2D::7099258018124617409::1698437588::1698516190::1::::<><>::
 TheGameScreen.tscn::PackedScene::9044998982244819359::1698516074::0::1::::<><>::uid://wbw0p0x3wqyj::::res://Player/player.tscn<>uid://cwxfhvgpcbycr::::res://Assets 1/Levels.tscn
+=======
+::res://::1698507592
+GameManager.cs::CSharpScript::-1::1698507303::0::1::::<><>::
+icon.svg::CompressedTexture2D::7099258018124617409::1698437588::1698486243::1::::<><>::
+TheGameScreen.tscn::PackedScene::9044998982244819359::1698507212::0::1::::<><>::uid://wbw0p0x3wqyj::::res://Characters/Player/player.tscn<>uid://cwxfhvgpcbycr::::res://Assets 1/Levels.tscn<>res://GameManager.cs
+>>>>>>> parent of b7bf738 (music)
 ::res://Assets/::1698462556
 Enemy.png::CompressedTexture2D::149889701823535600::1698452151::1698452153::1::::<><>::
 Player.png::CompressedTexture2D::8648225832575337777::1698452140::1698452153::1::::<><>::
@@ -63,8 +70,13 @@ players red x3.png::CompressedTexture2D::5771187147110969525::1698444123::169844
 ui x1.png::CompressedTexture2D::8160137856587468261::1698444123::1698444290::1::::<><>::
 ui x2.png::CompressedTexture2D::6918583390635478837::1698444123::1698444291::1::::<><>::
 ui x3.png::CompressedTexture2D::7281321129015478089::1698444123::1698444291::1::::<><>::
+<<<<<<< HEAD
 ::res://Assets 1/::1698516074
 Levels.tscn::PackedScene::6364793814230906685::1698516074::0::1::::<><>::uid://ospom3vkj1m::::res://Assets 1/map 2 town.tscn<>uid://ctyww0nqr67r3::::res://Maps/Assets 1/Map 1 Node.tscn<>uid://x7xpl876k7o4::::res://Maps/Assets 1/dessert town uwu.tscn
+=======
+::res://Assets 1/::1698506542
+Levels.tscn::PackedScene::6364793814230906685::1698506783::0::1::::<><>::uid://ospom3vkj1m::::res://Assets 1/map 2 town.tscn<>uid://ctyww0nqr67r3::::res://Maps/Assets 1/Map 1 Node.tscn<>uid://x7xpl876k7o4::::res://Maps/Assets 1/dessert town uwu.tscn
+>>>>>>> parent of b7bf738 (music)
 Map 1.tscn::PackedScene::3531752631948280118::1698506101::0::1::::<><>::uid://ct3kawhu2k5u6::::res://Maps/Assets 1/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x1.png
 map 2 town.tscn::PackedScene::30021736500420932::1698506473::0::1::::<><>::uid://byjgo010afmxn::::res://Maps/Assets 1/modern-city-assets/street.png<>uid://cg5dw7kjlth3c::::res://Maps/Assets 1/modern-city-assets/buildings.png<>uid://dvkl1y6gdf230::::res://Maps/Assets 1/modern-city-assets/vehicles.png
 tileset x1.png::CompressedTexture2D::6262106339527886506::1698444123::1698462579::1::::<><>::
@@ -134,6 +146,7 @@ players red x3.png::CompressedTexture2D::7908349742341161514::1698477810::169847
 ui x1.png::CompressedTexture2D::4149093896902683320::1698477810::1698477816::1::::<><>::
 ui x2.png::CompressedTexture2D::1471805113470683334::1698477810::1698477816::1::::<><>::
 ui x3.png::CompressedTexture2D::2619761547927437966::1698477810::1698477816::1::::<><>::
+<<<<<<< HEAD
 ::res://Characters/::1698516074
 ::res://Characters/Enemy/::1698515918
 robot.cs::CSharpScript::-1::1698514207::0::1::::<><>::
@@ -151,6 +164,21 @@ dessert town uwu.tscn::PackedScene::1681827399778047609::1698515918::0::1::::<><
 Map 1 Node.tscn::PackedScene::6157350857830173478::1698516074::0::1::::<><>::uid://bqk2pkbak3wa5::::res://Maps/Map_1.tscn<>uid://bqd0x5semfucs::::res://Maps/Game Jam Lab Theme.mp3
 Map 1.tscn::PackedScene::3531752631948280118::1698487568::0::1::::<><>::uid://ct3kawhu2k5u6::::res://Maps/Assets 1/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x1.png
 map 2 town.tscn::PackedScene::977374331486146444::1698515918::0::1::::<><>::uid://byjgo010afmxn::::res://Maps/Assets 1/modern-city-assets/street.png<>uid://cg5dw7kjlth3c::::res://Maps/Assets 1/modern-city-assets/buildings.png<>uid://dvkl1y6gdf230::::res://Maps/Assets 1/modern-city-assets/vehicles.png<>uid://cwiknpfl1a2hd::::res://Maps/CP MAINCITY PART 2.mp3
+=======
+::res://Characters/::1698507592
+::res://Characters/Enemy/::1698506473
+robot.cs::CSharpScript::-1::1698504897::0::1::::<><>::
+robot.tscn::PackedScene::7866915354609809100::1698506473::0::1::::<><>::res://Characters/Enemy/robot.cs<>uid://lwbmxgdsrujp::::res://Assets/Tech Dungeon Roguelite - Asset Pack (DEMO)/NPC/No Outlines/npc x3.png
+::res://Maps/::1698506038
+Final zone.tscn::PackedScene::57380755690896914::1698506101::0::1::::<><>::uid://djiran84tbbly::::res://Maps/Assets 1/DesertTileset16x16/Tileset16x16/DesertTilemapBlankBackground.png<>uid://cg5dw7kjlth3c::::res://Maps/Assets 1/modern-city-assets/buildings.png<>uid://byjgo010afmxn::::res://Maps/Assets 1/modern-city-assets/street.png<>uid://dvkl1y6gdf230::::res://Maps/Assets 1/modern-city-assets/vehicles.png<>uid://ct3kawhu2k5u6::::res://Maps/Assets 1/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x1.png
+map 1.png::CompressedTexture2D::372364952902867373::1698470389::1698470547::1::::<><>::
+Map_1.tscn::PackedScene::3531752631948280118::1698507173::0::1::::<><>::uid://fkm2cutnbd8h::::res://Maps/map 1.png
+::res://Maps/Assets 1/::1698506473
+dessert town uwu.tscn::PackedScene::1681827399778047609::1698506473::0::1::::<><>::uid://byjgo010afmxn::::res://Maps/Assets 1/modern-city-assets/street.png<>uid://djiran84tbbly::::res://Maps/Assets 1/DesertTileset16x16/Tileset16x16/DesertTilemapBlankBackground.png
+Map 1 Node.tscn::PackedScene::6157350857830173478::1698506341::0::1::::<><>::uid://bqk2pkbak3wa5::::res://Maps/Map_1.tscn<>uid://dkc17ggamfpqi::::res://Characters/Enemy/robot.tscn
+Map 1.tscn::PackedScene::3531752631948280118::1698487568::0::1::::<><>::uid://ct3kawhu2k5u6
+map 2 town.tscn::PackedScene::977374331486146444::1698506101::0::1::::<><>::uid://byjgo010afmxn::::res://Maps/Assets 1/modern-city-assets/street.png<>uid://cg5dw7kjlth3c::::res://Maps/Assets 1/modern-city-assets/buildings.png<>uid://dvkl1y6gdf230::::res://Maps/Assets 1/modern-city-assets/vehicles.png
+>>>>>>> parent of b7bf738 (music)
 ::res://Maps/Assets 1/DesertTileset16x16/::1698477580
 ::res://Maps/Assets 1/DesertTileset16x16/ButtonForTheMap/::1698477580
 ButtonGif1.png::CompressedTexture2D::7648438965247237637::1698477580::1698477614::1::::<><>::
@@ -215,8 +243,14 @@ players red x3.png::CompressedTexture2D::7908349742341161514::1698477580::169847
 ui x1.png::CompressedTexture2D::4149093896902683320::1698477580::1698477614::1::::<><>::
 ui x2.png::CompressedTexture2D::1471805113470683334::1698477580::1698477614::1::::<><>::
 ui x3.png::CompressedTexture2D::2619761547927437966::1698477580::1698477615::1::::<><>::
+<<<<<<< HEAD
 ::res://Player/::1698516074
 player.tscn::PackedScene::1547600184032935561::1698516074::0::1::::<><>::uid://dvhjasosn7fan::::res://Assets/Player.png<>res://Characters/Player/PlayerCharacter.cs<>uid://nvf3awpb7ny8::::res://Assets/RPGMCharacter_v1.0/_down idle.png
 PlayerCharacter.cs::CSharpScript::-1::1698516074::0::1::::<><>::
 ::res://player2/::1698515918
 player.tscn::PackedScene::8223705017245536785::1698515918::0::1::::<><>::uid://dvhjasosn7fan::::res://Assets/Player.png<>uid://nvf3awpb7ny8::::res://Assets/RPGMCharacter_v1.0/_down idle.png
+=======
+::res://Player/::1698507592
+player.tscn::PackedScene::1547600184032935561::1698507592::0::1::::<><>::uid://dvhjasosn7fan::::res://Assets/Player.png<>res://Characters/Player/PlayerCharacter.cs<>uid://nvf3awpb7ny8::::res://Assets/RPGMCharacter_v1.0/_down idle.png
+PlayerCharacter.cs::CSharpScript::-1::1698507592::0::1::::<><>::
+>>>>>>> parent of b7bf738 (music)
