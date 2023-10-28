@@ -1,7 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://x7xpl876k7o4"]
+[gd_scene load_steps=7 format=3 uid="uid://x7xpl876k7o4"]
 
 [ext_resource type="Texture2D" uid="uid://byjgo010afmxn" path="res://Maps/Assets 1/modern-city-assets/street.png" id="1_0pu25"]
 [ext_resource type="Texture2D" uid="uid://djiran84tbbly" path="res://Maps/Assets 1/DesertTileset16x16/Tileset16x16/DesertTilemapBlankBackground.png" id="2_trcqb"]
+[ext_resource type="AudioStream" uid="uid://miiy0t3kxujg" path="res://Maps/Game Jam Deset Level Theme.mp3" id="3_ttmdd"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5jqpe"]
 texture = ExtResource("1_0pu25")
@@ -1251,3 +1252,7 @@ layer_1/tile_data = PackedInt32Array(393195, 327684, 2, 393198, 327684, 2, 39319
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(-271, 254)
 zoom = Vector2(2.7, 2.5)
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_ttmdd")
+autoplay = true

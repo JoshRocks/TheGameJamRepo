@@ -1,11 +1,10 @@
+res://Maps/Final zone.tscn
 res://TheGameScreen.tscn
 res://Characters/Enemy/robot.tscn
-res://Characters/Player/player.tscn
+res://player2/player.tscn
 res://Assets 1/map 2 town.tscn
 res://Assets 1/Levels.tscn
 res://Maps/Assets 1/map 2 town.tscn
 res://Maps/Assets 1/Map 1 Node.tscn
 res://Maps/Assets 1/dessert town uwu.tscn
-res://Maps/Final zone.tscn
-res://Assets 1/Map 1.tscn
 res://Maps/Map_1.tscn
