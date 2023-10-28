@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://d14p2um5kxwff"]
+[gd_scene load_steps=4 format=3 uid="uid://d14p2um5kxwff"]
 
 [ext_resource type="PackedScene" uid="uid://wbw0p0x3wqyj" path="res://Characters/Player/player.tscn" id="2_aoiel"]
 [ext_resource type="PackedScene" uid="uid://dkc17ggamfpqi" path="res://Characters/Enemy/robot.tscn" id="2_kv5qb"]
+[ext_resource type="PackedScene" uid="uid://cwxfhvgpcbycr" path="res://Assets 1/Levels.tscn" id="3_osew4"]
 
 [node name="GameScreen" type="Node2D"]
 
@@ -19,4 +20,4 @@ position = Vector2(-204, -39)
 [node name="GameTime" type="Timer" parent="."]
 one_shot = true
 
-[node name="Levels" type="Node2D" parent="."]
+[node name="Levels" parent="." instance=ExtResource("3_osew4")]
