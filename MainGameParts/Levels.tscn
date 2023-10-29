@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3 uid="uid://cwxfhvgpcbycr"]
+
+[ext_resource type="PackedScene" uid="uid://n6phht407ldk" path="res://Maps/Map Nodes/map 2 town.tscn" id="2_2sgbn"]
+[ext_resource type="PackedScene" uid="uid://ctyww0nqr67r3" path="res://Maps/Map Nodes/Map 1.tscn" id="3_j0ul7"]
+[ext_resource type="PackedScene" uid="uid://x7xpl876k7o4" path="res://Maps/Map Nodes/dessert town uwu.tscn" id="3_vq5qa"]
+[ext_resource type="PackedScene" uid="uid://22b144gpot3" path="res://Maps/Map Nodes/Final zone.tscn" id="4_il1b3"]
+
+[node name="Levels" type="Node2D"]
+
+[node name="Level 1" parent="." instance=ExtResource("3_j0ul7")]
+position = Vector2(-582, 18)
+
+[node name="Level 2" parent="." instance=ExtResource("2_2sgbn")]
+position = Vector2(295, -175)
+
+[node name="Level 3" parent="." instance=ExtResource("3_vq5qa")]
+position = Vector2(1195, -218)
+
+[node name="Level 4" parent="." instance=ExtResource("4_il1b3")]
+position = Vector2(1855, 153)
