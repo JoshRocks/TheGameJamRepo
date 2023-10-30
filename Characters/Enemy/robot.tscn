@@ -1,6 +1,4 @@
-[gd_scene load_steps=3 format=3 uid="uid://dkc17ggamfpqi"]
-
-[ext_resource type="Texture2D" uid="uid://lwbmxgdsrujp" path="res://Assets/Tech Dungeon Roguelite - Asset Pack (DEMO)/NPC/No Outlines/npc x3.png" id="2_hiyr1"]
+[gd_scene load_steps=2 format=3 uid="uid://dkc17ggamfpqi"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ov277"]
 size = Vector2(25, 39)
@@ -14,6 +12,5 @@ shape = SubResource("RectangleShape2D_ov277")
 
 [node name="EnemySprite" type="Sprite2D" parent="."]
 scale = Vector2(0.5, 0.5)
-texture = ExtResource("2_hiyr1")
 hframes = 6
 vframes = 3

@@ -1,18 +1,13 @@
-[gd_scene load_steps=5 format=3 uid="uid://wbw0p0x3wqyj"]
+[gd_scene load_steps=4 format=3 uid="uid://wbw0p0x3wqyj"]
 
-[ext_resource type="Texture2D" uid="uid://dvhjasosn7fan" path="res://Assets/Player.png" id="1_knmj7"]
 [ext_resource type="Script" path="res://Characters/Player/PlayerCharacter.cs" id="1_n216q"]
-[ext_resource type="Texture2D" uid="uid://nvf3awpb7ny8" path="res://Assets/RPGMCharacter_v1.0/_down idle.png" id="3_2bjnp"]
+[ext_resource type="Texture2D" uid="uid://nvf3awpb7ny8" path="res://Characters/Character Assets/RPGMCharacter_v1.0/_down idle.png" id="2_lg50d"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qqgxv"]
 size = Vector2(13, 33)
 
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_n216q")
-
-[node name="PlayerSprite" type="Sprite2D" parent="."]
-visible = false
-texture = ExtResource("1_knmj7")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 visible = false
@@ -21,7 +16,7 @@ shape = SubResource("RectangleShape2D_qqgxv")
 
 [node name="DownIdle" type="Sprite2D" parent="."]
 position = Vector2(-2, -1)
-texture = ExtResource("3_2bjnp")
+texture = ExtResource("2_lg50d")
 hframes = 4
 vframes = 2
 frame = 1
