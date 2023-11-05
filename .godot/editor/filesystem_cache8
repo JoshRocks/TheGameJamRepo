@@ -1,101 +1,100 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1698684118
-icon.svg::CompressedTexture2D::7099258018124617409::1698437588::1698516765::1::::<><>::
-::res://Characters/::1698684117
-::res://Characters/Character Assets/::1698684117
-::res://Characters/Character Assets/RPGMCharacter_v1.0/::1698684117
-nfo.txt::TextFile::-1::1698684117::0::1::::<><>::
-public-license.txt::TextFile::-1::1698684117::0::1::::<><>::
-_down attack.png::CompressedTexture2D::54041593475610829::1698684117::1698684117::1::::<><>::
-_down idle.png::CompressedTexture2D::956160521992684149::1698684117::1698684117::1::::<><>::
-_down walk.png::CompressedTexture2D::5920847163988018970::1698684117::1698684117::1::::<><>::
-_pick up.png::CompressedTexture2D::3176605226680036254::1698684117::1698684117::1::::<><>::
-_side attack.png::CompressedTexture2D::5839508835116395860::1698684117::1698684117::1::::<><>::
-_side idle.png::CompressedTexture2D::5785917620480995215::1698684117::1698684117::1::::<><>::
-_side walk.png::CompressedTexture2D::6752674839620219440::1698684117::1698684117::1::::<><>::
-_up attack.png::CompressedTexture2D::331829014763473347::1698684117::1698684117::1::::<><>::
-_up idle.png::CompressedTexture2D::4716803285154918383::1698684117::1698684117::1::::<><>::
-_up walk.png::CompressedTexture2D::4644810707244359207::1698684117::1698684117::1::::<><>::
-::res://Characters/Character Assets/RPGMCharacter_v1.0/!PSD/::1698684117
-::res://Characters/Character Assets/Tech Dungeon Roguelite - Asset Pack (DEMO)/::1698684117
-::res://Characters/Character Assets/Tech Dungeon Roguelite - Asset Pack (DEMO)/NPC/::1698684117
-6x3 Cells.txt::TextFile::-1::1698684117::0::1::::<><>::
-npc x1.png::CompressedTexture2D::3764702769790699608::1698684117::1698684117::1::::<><>::
-npc x2.png::CompressedTexture2D::6161015642155456937::1698684117::1698684117::1::::<><>::
-npc x3.png::CompressedTexture2D::6407782503799271928::1698684117::1698684117::1::::<><>::
-::res://Characters/Character Assets/Tech Dungeon Roguelite - Asset Pack (DEMO)/NPC/No Outlines/::1698684117
-npc x1.png::CompressedTexture2D::1371649034459996474::1698684117::1698684117::1::::<><>::
-npc x2.png::CompressedTexture2D::7035475565844864001::1698684117::1698684117::1::::<><>::
-npc x3.png::CompressedTexture2D::817576954594228249::1698684117::1698684117::1::::<><>::
-::res://Characters/Character Assets/Tech Dungeon Roguelite - Asset Pack (DEMO)/Players/::1698684117
-8x13 Cells.txt::TextFile::-1::1698684117::0::1::::<><>::
-players blue x1.png::CompressedTexture2D::3197141808528958846::1698684117::1698684117::1::::<><>::
-players blue x2.png::CompressedTexture2D::1041649224933518700::1698684117::1698684117::1::::<><>::
-players blue x3.png::CompressedTexture2D::3017046067343052065::1698684117::1698684117::1::::<><>::
-players green x1.png::CompressedTexture2D::3731150923194161592::1698684117::1698684117::1::::<><>::
-players green x2.png::CompressedTexture2D::5388713647824127272::1698684117::1698684117::1::::<><>::
-players green x3.png::CompressedTexture2D::7907571652154548557::1698684117::1698684117::1::::<><>::
-players grey x1.png::CompressedTexture2D::5610243894248347381::1698684117::1698684117::1::::<><>::
-players grey x2.png::CompressedTexture2D::7971062935358649895::1698684117::1698684117::1::::<><>::
-players grey x3.png::CompressedTexture2D::5228623988286436268::1698684117::1698684117::1::::<><>::
-players red x1.png::CompressedTexture2D::4758589046230918895::1698684117::1698684117::1::::<><>::
-players red x2.png::CompressedTexture2D::8948762091703139333::1698684117::1698684117::1::::<><>::
-players red x3.png::CompressedTexture2D::2601959239408873440::1698684117::1698684117::1::::<><>::
-::res://Characters/Character Assets/Tech Dungeon Roguelite - Asset Pack (DEMO)/Players/No Outlines/::1698684117
-players blue x1.png::CompressedTexture2D::6433115369259014854::1698684117::1698684117::1::::<><>::
-players blue x2.png::CompressedTexture2D::9174814725843791446::1698684117::1698684117::1::::<><>::
-players blue x3.png::CompressedTexture2D::1623651682307683941::1698684117::1698684117::1::::<><>::
-players green x1.png::CompressedTexture2D::8021523888896707729::1698684117::1698684117::1::::<><>::
-players green x2.png::CompressedTexture2D::5711707298433702723::1698684117::1698684117::1::::<><>::
-players green x3.png::CompressedTexture2D::4371051769679505671::1698684117::1698684117::1::::<><>::
-players grey x1.png::CompressedTexture2D::2732874426668005652::1698684117::1698684117::1::::<><>::
-players grey x2.png::CompressedTexture2D::4654174323820101452::1698684117::1698684117::1::::<><>::
-players grey x3.png::CompressedTexture2D::3120615038022643635::1698684117::1698684117::1::::<><>::
-players red x1.png::CompressedTexture2D::7686664291750512070::1698684117::1698684117::1::::<><>::
-players red x2.png::CompressedTexture2D::3510800839493643707::1698684117::1698684117::1::::<><>::
-players red x3.png::CompressedTexture2D::5771187147110969525::1698684117::1698684117::1::::<><>::
-::res://Characters/Enemy/::1698684117
-robot.cs::CSharpScript::-1::1698684106::0::1::::<><>::
-robot.tscn::PackedScene::7866915354609809100::1698684117::0::1::::<><>::
-::res://Characters/Player/::1698684117
-player.tscn::PackedScene::1547600184032935561::1698684117::0::1::::<><>::res://Characters/Player/PlayerCharacter.cs<>uid://nvf3awpb7ny8::::res://Characters/Character Assets/RPGMCharacter_v1.0/_down idle.png
-PlayerCharacter.cs::CSharpScript::-1::1698516731::0::1::::<><>::
-::res://MainGameParts/::1698684151
-GameManager.cs::CSharpScript::-1::1698684117::0::1::::<><>::
-Levels.tscn::PackedScene::6364793814230906685::1698684117::0::1::::<><>::uid://n6phht407ldk::::res://Maps/Map Nodes/map 2 town.tscn<>uid://ctyww0nqr67r3::::res://Maps/Map Nodes/Map 1.tscn<>uid://x7xpl876k7o4::::res://Maps/Map Nodes/dessert town uwu.tscn<>uid://22b144gpot3::::res://Maps/Map Nodes/Final zone.tscn
-TheGameScreen.tscn::PackedScene::9044998982244819359::1698684151::0::1::::<><>::uid://wbw0p0x3wqyj::::res://Characters/Player/player.tscn<>uid://cwxfhvgpcbycr::::res://MainGameParts/Levels.tscn
-::res://Maps/::1698684118
-::res://Maps/Map Assets/::1698684118
-::res://Maps/Map Assets/DesertTileset16x16/::1698684117
-::res://Maps/Map Assets/DesertTileset16x16/ButtonForTheMap/::1698684117
-ButtonGif1.png::CompressedTexture2D::7648438965247237637::1698684117::1698684117::1::::<><>::
-ButtonGif2.png::CompressedTexture2D::3905146636810428606::1698684117::1698684117::1::::<><>::
-ButtonGif3.png::CompressedTexture2D::8510847338213257456::1698684117::1698684117::1::::<><>::
-::res://Maps/Map Assets/DesertTileset16x16/Tileset16x16/::1698684117
-DesertMockup.png::CompressedTexture2D::2545923084890122395::1698684117::1698684117::1::::<><>::
-DesertTilemap16x16.png::CompressedTexture2D::8528056446033803846::1698684117::1698684117::1::::<><>::
-DesertTilemapBlankBackground.png::CompressedTexture2D::7808509589856258858::1698684117::1698684117::1::::<><>::
-Mockup2.png::CompressedTexture2D::3489349653087089531::1698684117::1698684117::1::::<><>::
-::res://Maps/Map Assets/modern-city-assets/::1698684118
-buildings.png::CompressedTexture2D::5256128896900019902::1698684118::1698684118::1::::<><>::
-fences.png::CompressedTexture2D::4036433129836373528::1698684118::1698684118::1::::<><>::
-street.png::CompressedTexture2D::4089922988248448787::1698684118::1698684118::1::::<><>::
-vehicles.png::CompressedTexture2D::8654587171306730005::1698684118::1698684118::1::::<><>::
-::res://Maps/Map Assets/modern-city-assets/previews/::1698684118
-0.png::CompressedTexture2D::8445323878581289279::1698684118::1698684118::1::::<><>::
-thumb.png::CompressedTexture2D::239892544952200675::1698684118::1698684118::1::::<><>::
-::res://Maps/Map Assets/Tech Dungeon Roguelite - Asset Pack (DEMO)/::1698684118
-Read Me.txt::TextFile::-1::1698684118::0::1::::<><>::
-tileset x1.png::CompressedTexture2D::6164840310822707839::1698684118::1698684118::1::::<><>::
-tileset x2.png::CompressedTexture2D::5356230145454890443::1698684118::1698684118::1::::<><>::
-tileset x3.png::CompressedTexture2D::8600070370053142309::1698684118::1698684118::1::::<><>::
-::res://Maps/Map Nodes/::1698684118
-dessert town uwu.tscn::PackedScene::1681827399778047609::1698684118::0::1::::<><>::uid://byjgo010afmxn::::res://Maps/Map Assets/modern-city-assets/street.png<>uid://djiran84tbbly::::res://Maps/Map Assets/DesertTileset16x16/Tileset16x16/DesertTilemapBlankBackground.png<>uid://miiy0t3kxujg::::res://Maps/Game Jam Deset Level Theme.mp3
-Final zone.tscn::PackedScene::57380755690896914::1698684118::0::1::::<><>::uid://djiran84tbbly::::res://Maps/Map Assets/DesertTileset16x16/Tileset16x16/DesertTilemapBlankBackground.png<>uid://cg5dw7kjlth3c::::res://Maps/Map Assets/modern-city-assets/buildings.png<>uid://byjgo010afmxn::::res://Maps/Map Assets/modern-city-assets/street.png<>uid://dvkl1y6gdf230::::res://Maps/Map Assets/modern-city-assets/vehicles.png<>uid://ct3kawhu2k5u6::::res://Maps/Map Assets/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x1.png<>uid://c5lhej0p4lxo::::res://Maps/Game Jam Final Stage Theme.mp3
-Map 1.tscn::PackedScene::6157350857830173478::1698684118::0::1::::<><>::uid://bqd0x5semfucs::::res://Music/Game Jam Lab Theme.mp3
-map 2 town.tscn::PackedScene::977374331486146444::1698684118::0::1::::<><>::uid://byjgo010afmxn::::res://Maps/Map Assets/modern-city-assets/street.png<>uid://cg5dw7kjlth3c::::res://Maps/Map Assets/modern-city-assets/buildings.png<>uid://dvkl1y6gdf230::::res://Maps/Map Assets/modern-city-assets/vehicles.png<>uid://cwiknpfl1a2hd::::res://Music/CP MAINCITY PART 2.mp3
-::res://Music/::1698684118
-CP MAINCITY PART 2.mp3::AudioStreamMP3::6334142130812661149::1698684118::1698684118::1::::<><>::
-Game Jam Deset Level Theme.mp3::AudioStreamMP3::859311084406236192::1698684118::1698684118::1::::<><>::
-Game Jam Final Stage Theme.mp3::AudioStreamMP3::202989632529347712::1698684118::1698684118::1::::<><>::
-Game Jam Lab Theme.mp3::AudioStreamMP3::3517195916947753998::1698684118::1698684118::1::::<><>::
+::res://::1699211785
+icon.svg::CompressedTexture2D::7099258018124617409::1698597587::1698697028::1::::<><>::
+::res://Characters/::1698598372
+::res://Characters/Character Assets/::1698598336
+::res://Characters/Character Assets/RPGMCharacter_v1.0/::1698598372
+nfo.txt::TextFile::-1::1698597587::0::1::::<><>::
+public-license.txt::TextFile::-1::1698597587::0::1::::<><>::
+_down attack.png::CompressedTexture2D::54041593475610829::1698597587::1698598372::1::::<><>::
+_down idle.png::CompressedTexture2D::956160521992684149::1698597587::1698598372::1::::<><>::
+_down walk.png::CompressedTexture2D::5920847163988018970::1698597587::1698598372::1::::<><>::
+_pick up.png::CompressedTexture2D::3176605226680036254::1698597587::1698598372::1::::<><>::
+_side attack.png::CompressedTexture2D::5839508835116395860::1698597587::1698598372::1::::<><>::
+_side idle.png::CompressedTexture2D::5785917620480995215::1698597587::1698598372::1::::<><>::
+_side walk.png::CompressedTexture2D::6752674839620219440::1698597587::1698598372::1::::<><>::
+_up attack.png::CompressedTexture2D::331829014763473347::1698597587::1698598372::1::::<><>::
+_up idle.png::CompressedTexture2D::4716803285154918383::1698597587::1698598372::1::::<><>::
+_up walk.png::CompressedTexture2D::4644810707244359207::1698597587::1698598372::1::::<><>::
+::res://Characters/Character Assets/RPGMCharacter_v1.0/!PSD/::1698597587
+::res://Characters/Character Assets/Tech Dungeon Roguelite - Asset Pack (DEMO)/::1698598350
+::res://Characters/Character Assets/Tech Dungeon Roguelite - Asset Pack (DEMO)/NPC/::1698598372
+6x3 Cells.txt::TextFile::-1::1698597587::0::1::::<><>::
+npc x1.png::CompressedTexture2D::3764702769790699608::1698597587::1698598372::1::::<><>::
+npc x2.png::CompressedTexture2D::6161015642155456937::1698597587::1698598372::1::::<><>::
+npc x3.png::CompressedTexture2D::6407782503799271928::1698597587::1698598372::1::::<><>::
+::res://Characters/Character Assets/Tech Dungeon Roguelite - Asset Pack (DEMO)/NPC/No Outlines/::1698598372
+npc x1.png::CompressedTexture2D::1371649034459996474::1698597587::1698598372::1::::<><>::
+npc x2.png::CompressedTexture2D::7035475565844864001::1698597587::1698598372::1::::<><>::
+npc x3.png::CompressedTexture2D::817576954594228249::1698597587::1698598372::1::::<><>::
+::res://Characters/Character Assets/Tech Dungeon Roguelite - Asset Pack (DEMO)/Players/::1698598372
+8x13 Cells.txt::TextFile::-1::1698597587::0::1::::<><>::
+players blue x1.png::CompressedTexture2D::3197141808528958846::1698597587::1698598372::1::::<><>::
+players blue x2.png::CompressedTexture2D::1041649224933518700::1698597587::1698598372::1::::<><>::
+players blue x3.png::CompressedTexture2D::3017046067343052065::1698597587::1698598372::1::::<><>::
+players green x1.png::CompressedTexture2D::3731150923194161592::1698597587::1698598372::1::::<><>::
+players green x2.png::CompressedTexture2D::5388713647824127272::1698597587::1698598372::1::::<><>::
+players green x3.png::CompressedTexture2D::7907571652154548557::1698597587::1698598372::1::::<><>::
+players grey x1.png::CompressedTexture2D::5610243894248347381::1698597587::1698598372::1::::<><>::
+players grey x2.png::CompressedTexture2D::7971062935358649895::1698597587::1698598372::1::::<><>::
+players grey x3.png::CompressedTexture2D::5228623988286436268::1698597587::1698598372::1::::<><>::
+players red x1.png::CompressedTexture2D::4758589046230918895::1698597587::1698598372::1::::<><>::
+players red x2.png::CompressedTexture2D::8948762091703139333::1698597587::1698598372::1::::<><>::
+players red x3.png::CompressedTexture2D::2601959239408873440::1698597587::1698598372::1::::<><>::
+::res://Characters/Character Assets/Tech Dungeon Roguelite - Asset Pack (DEMO)/Players/No Outlines/::1698598372
+players blue x1.png::CompressedTexture2D::6433115369259014854::1698597587::1698598372::1::::<><>::
+players blue x2.png::CompressedTexture2D::9174814725843791446::1698597587::1698598372::1::::<><>::
+players blue x3.png::CompressedTexture2D::1623651682307683941::1698597587::1698598372::1::::<><>::
+players green x1.png::CompressedTexture2D::8021523888896707729::1698597587::1698598372::1::::<><>::
+players green x2.png::CompressedTexture2D::5711707298433702723::1698597587::1698598372::1::::<><>::
+players green x3.png::CompressedTexture2D::4371051769679505671::1698597587::1698598372::1::::<><>::
+players grey x1.png::CompressedTexture2D::2732874426668005652::1698597587::1698598372::1::::<><>::
+players grey x2.png::CompressedTexture2D::4654174323820101452::1698597587::1698598372::1::::<><>::
+players grey x3.png::CompressedTexture2D::3120615038022643635::1698597587::1698598372::1::::<><>::
+players red x1.png::CompressedTexture2D::7686664291750512070::1698597587::1698598372::1::::<><>::
+players red x2.png::CompressedTexture2D::3510800839493643707::1698597587::1698598372::1::::<><>::
+players red x3.png::CompressedTexture2D::5771187147110969525::1698597587::1698598372::1::::<><>::
+::res://Characters/Enemy/::1698697002
+robot.cs::CSharpScript::-1::1698597587::0::1::::<><>::
+robot.tscn::PackedScene::7866915354609809100::1698697002::0::1::::<><>::
+::res://Characters/Player/::1698598372
+player.tscn::PackedScene::1547600184032935561::1698598372::0::1::::<><>::res://Characters/Player/PlayerCharacter.cs<>uid://nvf3awpb7ny8::::res://Characters/Character Assets/RPGMCharacter_v1.0/_down idle.png
+PlayerCharacter.cs::CSharpScript::-1::1698597587::0::1::::<><>::
+::res://MainGameParts/::1698697002
+GameManager.cs::CSharpScript::-1::1698597587::0::1::::<><>::
+Levels.tscn::PackedScene::6364793814230906685::1698599064::0::1::::<><>::uid://n6phht407ldk::::res://Maps/Map Nodes/map 2 town.tscn<>uid://ctyww0nqr67r3::::res://Maps/Map Nodes/Map 1.tscn<>uid://x7xpl876k7o4::::res://Maps/Map Nodes/dessert town uwu.tscn<>uid://22b144gpot3::::res://Maps/Map Nodes/Final zone.tscn
+TheGameScreen.tscn::PackedScene::9044998982244819359::1698697002::0::1::::<><>::uid://wbw0p0x3wqyj::::res://Characters/Player/player.tscn<>uid://cwxfhvgpcbycr::::res://MainGameParts/Levels.tscn
+::res://Maps/::1698598635
+::res://Maps/Map Assets/::1698607458
+::res://Maps/Map Assets/DesertTileset16x16/::1698597587
+::res://Maps/Map Assets/DesertTileset16x16/ButtonForTheMap/::1698597922
+ButtonGif1.png::CompressedTexture2D::7648438965247237637::1698597587::1698597922::1::::<><>::
+ButtonGif2.png::CompressedTexture2D::3905146636810428606::1698597587::1698597922::1::::<><>::
+ButtonGif3.png::CompressedTexture2D::8510847338213257456::1698597587::1698597922::1::::<><>::
+::res://Maps/Map Assets/DesertTileset16x16/Tileset16x16/::1698597922
+DesertMockup.png::CompressedTexture2D::2545923084890122395::1698597587::1698597922::1::::<><>::
+DesertTilemap16x16.png::CompressedTexture2D::8528056446033803846::1698597587::1698597922::1::::<><>::
+DesertTilemapBlankBackground.png::CompressedTexture2D::7808509589856258858::1698597587::1698597922::1::::<><>::
+Mockup2.png::CompressedTexture2D::3489349653087089531::1698597587::1698597922::1::::<><>::
+::res://Maps/Map Assets/modern-city-assets/::1698597922
+buildings.png::CompressedTexture2D::5256128896900019902::1698597587::1698597922::1::::<><>::
+fences.png::CompressedTexture2D::4036433129836373528::1698597587::1698597922::1::::<><>::
+street.png::CompressedTexture2D::4089922988248448787::1698597587::1698597922::1::::<><>::
+vehicles.png::CompressedTexture2D::8654587171306730005::1698597587::1698597922::1::::<><>::
+::res://Maps/Map Assets/modern-city-assets/previews/::1698597922
+0.png::CompressedTexture2D::8445323878581289279::1698597587::1698597922::1::::<><>::
+thumb.png::CompressedTexture2D::239892544952200675::1698597587::1698597922::1::::<><>::
+::res://Maps/Map Assets/Tech Dungeon Roguelite - Asset Pack (DEMO)/::1698697003
+Read Me.txt::TextFile::-1::1698597587::0::1::::<><>::
+tileset x1.png::CompressedTexture2D::6164840310822707839::1698597587::1698597922::1::::<><>::
+tileset x2.png::CompressedTexture2D::5356230145454890443::1698597587::1698597923::1::::<><>::
+::res://Maps/Map Nodes/::1698697161
+dessert town uwu.tscn::PackedScene::1681827399778047609::1698697002::0::1::::<><>::uid://byjgo010afmxn::::res://Maps/Map Assets/modern-city-assets/street.png<>uid://djiran84tbbly::::res://Maps/Map Assets/DesertTileset16x16/Tileset16x16/DesertTilemapBlankBackground.png<>uid://miiy0t3kxujg::::res://Maps/Game Jam Deset Level Theme.mp3
+Final zone.tscn::PackedScene::57380755690896914::1698597922::0::1::::<><>::uid://djiran84tbbly::::res://Maps/Map Assets/DesertTileset16x16/Tileset16x16/DesertTilemapBlankBackground.png<>uid://cg5dw7kjlth3c::::res://Maps/Map Assets/modern-city-assets/buildings.png<>uid://byjgo010afmxn::::res://Maps/Map Assets/modern-city-assets/street.png<>uid://dvkl1y6gdf230::::res://Maps/Map Assets/modern-city-assets/vehicles.png<>uid://ct3kawhu2k5u6::::res://Maps/Map Assets/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x1.png<>uid://c5lhej0p4lxo::::res://Maps/Game Jam Final Stage Theme.mp3
+Map 1.tscn::PackedScene::6157350857830173478::1698697161::0::1::::<><>::uid://ct3kawhu2k5u6::::res://Maps/Map Assets/Tech Dungeon Roguelite - Asset Pack (DEMO)/tileset x1.png<>uid://bqd0x5semfucs::::res://Music/Game Jam Lab Theme.mp3
+map 2 town.tscn::PackedScene::977374331486146444::1698697002::0::1::::<><>::uid://byjgo010afmxn::::res://Maps/Map Assets/modern-city-assets/street.png<>uid://cg5dw7kjlth3c::::res://Maps/Map Assets/modern-city-assets/buildings.png<>uid://dvkl1y6gdf230::::res://Maps/Map Assets/modern-city-assets/vehicles.png<>uid://cwiknpfl1a2hd::::res://Music/CP MAINCITY PART 2.mp3
+::res://Music/::1698598434
+CP MAINCITY PART 2.mp3::AudioStreamMP3::6334142130812661149::1698597587::1698598125::1::::<><>::
+Game Jam Deset Level Theme.mp3::AudioStreamMP3::859311084406236192::1698597587::1698598434::1::::<><>::
+Game Jam Final Stage Theme.mp3::AudioStreamMP3::202989632529347712::1698597587::1698598391::1::::<><>::
+Game Jam Lab Theme.mp3::AudioStreamMP3::3517195916947753998::1698597587::1698598389::1::::<><>::

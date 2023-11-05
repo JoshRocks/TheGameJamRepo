@@ -1,8 +1,8 @@
+Camera2D
 AudioStreamPlayer
 Area2D
 Timer
 Node
-Camera2D
 Node2D
 TileMap
 Sprite2D
